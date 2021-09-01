@@ -200,6 +200,10 @@ h2 {
 .right {
   width: 50%;
 }
+.right p {
+  width: 40%;
+  margin: 0 30%;
+}
 
 /* Main Text Section Style */
 
@@ -209,11 +213,17 @@ section.main-text div {
   margin: 0 5%;
   color: white;
 }
-
 .centered-image {
   width: 15%;
   height: 15%;
   margin: 1% 42%;
+}
+.yosemite-advice {
+  text-align: center;
+}
+.yosemite-advice p {
+  width: 23%;
+  margin: 0 39%;
 }
 
 /* Footer Section Style */
