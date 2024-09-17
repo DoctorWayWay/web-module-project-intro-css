@@ -1,0 +1,247 @@
+/* CSS RESET */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  /* border: 1px solid red; */
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-family: "Roboto Mono", monospace;
+}
+h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 4em;
+}
+a {
+  font-family: "Roboto Mono", monospace;
+  text-decoration: none;
+}
+span {
+  font-weight: bold;
+}
+section {
+  padding: 2% 0;
+  margin: 0 auto;
+}
+
+/* Header Section Styles */
+
+nav {
+  padding: 2% 0;
+}
+nav a {
+  color: white;
+  display: inline-block;
+  padding: 1% 0;
+  width: 10%;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.2s;
+}
+nav a:hover {
+  box-shadow: 0 0 6px black;
+}
+.orange {
+  background: #ff764e;
+  margin-left: 10%;
+}
+.blue {
+  background: #5ed3eb;
+  margin: 0 24%;
+}
+.yellow {
+  background: #ffcd69;
+  margin-right: 10%;
+}
+h2 {
+  padding: 4% 0;
+}
+
+/* Titles Section Style */
+
+.titles {
+  text-align: center;
+  position: relative;
+}
+.left,
+.right {
+  display: inline-block;
+  vertical-align: middle;
+}
+.left {
+  width: 30%;
+}
+.left img {
+  border-radius: 50%;
+  max-height: 400px;
+}
+.right {
+  width: 50%;
+}
+.right p {
+  width: 40%;
+  margin: 0 auto;
+}
+
+/* Main Text Section Style */
+
+section.main-text div {
+  background-color: #ddb9a3;
+  text-align: center;
+  margin: 0 5%;
+  padding: 1% 0;
+  color: white;
+}
+.centered-image {
+  width: 12%;
+  height: 12%;
+  margin: 0 42%;
+}
+.yosemite-advice {
+  text-align: center;
+}
+.yosemite-advice p {
+  width: 23%;
+  margin: 0 auto;
+  padding-bottom: 3%;
+}
+
+/* Footer Section Style */
+
+footer {
+  background-color: #f9e7dc;
+}
+.footer-image {
+  background-image: url("/assets/footer_img.jpg");
+  background-size: cover;
+  background-position: 50% 20%;
+  height: 400px;
+  width: 100%;
+}
